@@ -1,5 +1,5 @@
 {
-  "name": "react-native-quick-base64",
+  "name": "@JuanRdBO/react-native-quick-base64",
   "version": "0.1.0",
   "description": "A native implementation of base64 in C++ for React Native",
   "main": "lib/commonjs/index",
