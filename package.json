@@ -51,7 +51,8 @@
   },
   "homepage": "https://github.com/JuanRdBO/react-native-quick-base64.git#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "dependencies": {
     "base64-js": "^1.5.1"
@@ -103,9 +104,6 @@
     ]
   },
   "release-it": {
-    "scripts": {
-      "npmPublish": "npm publish --access public"
-    },
     "git": {
       "commitMessage": "chore: release ${version}",
       "tagName": "v${version}"
