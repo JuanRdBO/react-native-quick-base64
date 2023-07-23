@@ -3,6 +3,4 @@
 @implementation QuickBase64
 RCT_EXPORT_MODULE()
 
-
-
 @end

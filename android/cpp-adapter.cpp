@@ -1,5 +1,5 @@
 #include <jni.h>
-#include "react-native-quick-base64.h"
+#include "../cpp/react-native-quick-base64.h"
 
 extern "C"
 JNIEXPORT void JNICALL
