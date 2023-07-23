@@ -103,6 +103,9 @@
     ]
   },
   "release-it": {
+    "scripts": {
+      "npmPublish": "npm publish --access public"
+    },
     "git": {
       "commitMessage": "chore: release ${version}",
       "tagName": "v${version}"
