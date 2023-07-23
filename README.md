@@ -11,12 +11,39 @@ npm install react-native-quick-base64
 ## Usage
 
 ```js
-import { multiply } from 'react-native-quick-base64';
+import { btoa, atob } from 'react-native-quick-base64';
 
-// ...
-
-const result = await multiply(3, 7);
+const base64 = btoa('foo');
+const decoded = atob(base64);
 ```
+
+## Methods
+
+Compatible with [base64-js](https://github.com/beatgammit/base64-js).
+
+### `byteLength(b64: string): number`
+
+Takes a base64 string and returns length of byte array
+
+### `toByteArray(b64: string): Uint8Array`
+
+Takes a base64 string and returns a byte array
+
+### `fromByteArray(uint8: Uint8Array): string`
+
+Takes a byte array and returns a base64 string
+
+### `btoa(data: string): string`
+
+Encodes a string in base64
+
+### `atob(b64: string): string`
+
+Decodes a base64 encoded string
+
+### `shim()`
+
+Adds `btoa` and `atob` functions to `global`.
 
 ## Contributing
 
@@ -24,7 +51,7 @@ See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the 
 
 ## License
 
-MIT
+MIT by [Takuya Matsuyama](https://github.com/craftzdog)
 
 ---
 
