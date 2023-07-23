@@ -1,12 +1,9 @@
-
-#ifdef RCT_NEW_ARCH_ENABLED
-#import "RNQuickBase64Spec.h"
-
-@interface QuickBase64 : NSObject <NativeQuickBase64Spec>
-#else
 #import <React/RCTBridgeModule.h>
+#import <React/RCTEventEmitter.h>
+#import "react-native-quick-base64.h"
 
 @interface QuickBase64 : NSObject <RCTBridgeModule>
-#endif
+
+@property (nonatomic, assign) BOOL setBridgeOnMainQueue;
 
 @end

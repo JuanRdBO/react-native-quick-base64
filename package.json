@@ -44,7 +44,7 @@
     "android"
   ],
   "repository": "https://github.com/JuanRdBO/react-native-quick-base64.git",
-  "author": "JuanRdBO <ctlndjuan@hotmail.com> (https://github.com/JuanRdBO/react-native-quick-base64.git)",
+  "author": "JuanRdBO <ctlndjuan@hotmail.com> (https://github.com/JuanRdBO)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/JuanRdBO/react-native-quick-base64.git/issues"
@@ -52,6 +52,9 @@
   "homepage": "https://github.com/JuanRdBO/react-native-quick-base64.git#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "base64-js": "^1.5.1"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.0.2",
