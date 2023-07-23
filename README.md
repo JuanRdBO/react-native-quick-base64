@@ -1,6 +1,6 @@
 # react-native-quick-base64
 
-A native implementation of base64 in C++ for React Native
+A native implementation of base64 in C++ for React Native. It's a direct port of [CraftzDogs's](https://github.com/craftzdog/react-native-quick-base64) repository with the same name.
 
 ## Installation
 
